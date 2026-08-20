@@ -3,7 +3,7 @@ import time
 import os
 import threading
 
-# Characters - tu aur add kar sakta hai
+# Characters -
 goku = ("Goku", "Dragon Ball", 100, 98, 80, 99, 85)
 vegeta = ("Vegeta", "Dragon Ball", 99, 97, 85, 98, 82)
 saitama = ("Saitama", "One Punch Man", 100, 99, 70, 85, 80)
@@ -46,7 +46,7 @@ characters = [goku, vegeta, saitama, gojo, sukuna,
 # Game Config
 BUDGET = 1000
 TEAM_SIZE = 5
-HUMAN_PLAYERS = 3 # Dosto ke hisaab se change kar
+HUMAN_PLAYERS = 3 # Change according to players
 BOT_PLAYERS = 0
 TOTAL_PLAYERS = HUMAN_PLAYERS + BOT_PLAYERS
 MIN_INCREMENT = 50
